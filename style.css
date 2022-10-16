@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+/** DESLIZAR**/
+
+html {
+    scroll-behavior: smooth;
+}
+
+:target {
+    scroll-margin-top: 0.8em;
+}
+   /**CABECALHO **/
+
+   body {
+    background-color: #F3F3F3;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.795);
+    border-radius: 10px;
+    border-style: solid #F3F3F3;
+}
+
+.logo img {
+    width: 150px;
+    height: 150px;
+}
+
+nav {
+    margin-top: 60px;
+}
+
+nav > a {
+    color: black;
+    padding: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+    text-decoration: solid;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+    
+nav > a:hover {
+    
+    color: white;
+    background-color: #47026c;
+    font-size: 105%
+}
+
+/**REDES SOCIAIS**/
+#lista {
+    list-style: none;
+    margin-top: 50px;
+}
+#lista li img {
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+}
+
+#lista li img:hover {
+    filter: invert(100%);
+    background-color: #b8fd93;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+/** APRESENTAÇÃO**/
+
+#principal {
+    display: flex;
+    justify-content: space-between;
+}
+#principal .imgprincipal {
+    width: 60%;
+    height: 80%;
+    border-color: #47026c;
+    border-style: solid;
+    border-radius: 200px;
+    margin-top: 70px;;
+    margin-left: 70px;
+}
+
+.apresentacao {
+    margin-top: 70px;
+    
+    line-height: 25px;
+}
+
+
+.apresentacao h1 {
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.apresentacao p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 25px;
+}
+
+/** APRENDIZADO**/
+
+.apre {
+    display: flex;
+    justify-content: space-between;
+}
+
+#aprendizado h2 {
+    margin-top: 200px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 700;
+}
+
+.html {
+    width: 20%;
+    height: 20%;
+}
+
+.css {
+    width: 20%;
+    height: 20%;
+}
+
+.apre p {
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    line-height: 25px;
+    font-family: 'Montserrat', sans-serif;
+    border: #47026c solid thin;
+    border-radius: 20px;
+    padding: 50px 50px 50px 50px;
+}
+
+/**Certificados**/
+
+#certificados h2 {
+    margin-top: 200px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 700;
+}
+
+.certlista {
+    display: inline-flex;
+    list-style: none;
+    margin: 0 10px 0 10px;
+}
+
+.certlista img {
+    border: #47026c solid thin;
+    border-radius: 7px;
+    padding: 10px 10px 10px 10px;
+    background-color: #47026c;
+    
+}
+
+.bkbcert {
+    width: 70%;
+    height: 70%;
+}
+
+.uicert {
+    width: 70%;
+    height: 70%;
+}
+
+.eucert {
+    width: 70%;
+    height: 70%;
+}
+
+.certlista li p {
+   font-family: 'Montserrat', sans-serif;
+   margin-top: 20px;
+   margin-right: 10px;
+   word-wrap: break-word;
+   width: 320px;
+} 
+
+/** PORTIFÓLIO EDUCACIONAL **/
+
+#portedu h2 {
+    margin-top: 200px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 700;
+}
+
+#portedu p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.listaportedu {
+    margin: 0 10px 0 10px;
+    list-style: none;
+}
+
+
+.divportbk{
+    display: flex;
+    justify-content: space-between;
+}
+
+.portbk h3 {
+    font-family: 'Bebas Neue', cursive;
+    padding-left: 25px;
+}
+
+.portbk p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 50%;
+    padding-right: 70px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.botaobk {
+    background-color: #47026c;
+    color: white;
+    width: 120px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.divportinvertido {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portinvertido h3 {
+    font-family: 'Bebas Neue', cursive;
+    padding-left: 15px;
+    margin-top: 20px;
+}
+
+.portinvertido p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 50%;
+    padding-right: 100px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.portinvertido img {
+    width: 15%;
+    height: 15%;
+    margin-top: 20px;
+}
+
+.botaoinvertido {
+    background-color: #47026c;
+    color: white;
+    width: 120px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.divportandroid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portandroid h3 {
+    font-family: 'Bebas Neue', cursive;
+    padding-left: 25px;
+    margin-top: 20px;
+}
+
+.portandroid p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 50%;
+    padding-right: 100px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.portandroid img {
+    width: 20%;
+    height: 20%;
+}
+
+.botaoandroid {
+    background-color: #47026c;
+    color: white;
+    width: 120px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.divportslide {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portslide h3 {
+    font-family: 'Bebas Neue', cursive;
+    padding-left: 25px;
+    margin-top: 20px;
+}
+
+.portslide p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 50%;
+    padding-right: 100px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.portslide img {
+    width: 20%;
+    height: 20%;
+}
+
+.botaoslide{
+    background-color: #47026c;
+    color: white;
+    width: 120px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+/** PORTIFÓLIO AUTORAL **/
+
+#portaut h2 {
+    margin-top: 200px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 700;
+}
+
+#portaut p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.listaportaut {
+    display: inline-flex;
+    list-style: none;
+}
+
+.listaportaut h3 {
+    margin: 15px 0px 15px 0px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.listacoffe img {
+    padding-left: 80px;
+}
+
+.listafarma img {
+    padding-left: 90px;
+}
+
+.listahospital img {
+    padding-left: 80px;
+}
+
+.listaportaut li p {
+    word-wrap: break-word;
+    width: 350px;
+    padding: 0px 25px 0px 25px;
+}
